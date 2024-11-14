@@ -1,0 +1,41 @@
+
+$color: #34547A;
+$font_roboto: 'Roboto';
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #EEEFF1;
+    padding-left: 0;
+}
+
+.header_main {
+    h1 {
+        font-family: $font_roboto;
+        font-weight: 500;
+    }
+
+    p {
+        font-family: $font_roboto;
+    }
+
+    a {
+        color: white;
+        background-color: $color;
+        font-family: $font_roboto;
+    }
+}
+
+.project img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    background-color: $color;
+    color: white;
+    font-family: $font_roboto;
+}
